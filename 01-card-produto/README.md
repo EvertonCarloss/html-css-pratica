@@ -1,15 +1,15 @@
 # Projeto 01 – Card de Produto (HTML & CSS)
 
-Este projeto faz parte da minha prática diária de HTML e CSS, com foco em criar componentes simples, bem estruturados e reutilizáveis.
+Este projeto faz parte da minha prática diária de **HTML e CSS**, com foco em criar componentes simples, bem estruturados e reutilizáveis.
 
-O objetivo foi desenvolver um card de produto aplicando boas práticas de semântica, organização de código e estilização moderna.
+O objetivo foi desenvolver um **card de produto** aplicando boas práticas de semântica, organização de código e estilização moderna.
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-- Praticar HTML semântico
-- Criar um layout simples utilizando CSS moderno
+- Praticar **HTML semântico**
+- Criar um layout simples utilizando **CSS moderno**
 - Trabalhar com imagens dentro de cards
 - Organizar o projeto de forma clara
 - Versionar corretamente com Git e GitHub
@@ -26,9 +26,9 @@ O objetivo foi desenvolver um card de produto aplicando boas práticas de semân
 ## 📌 O que foi desenvolvido
 
 - Estrutura HTML semântica utilizando:
-  - article
-  - figure
-  - img
+  - `article`
+  - `figure`
+  - `img`
 - Card de produto contendo:
   - Imagem
   - Título
@@ -38,7 +38,7 @@ O objetivo foi desenvolver um card de produto aplicando boas práticas de semân
 - Estilização com CSS:
   - Reset básico
   - Centralização com Flexbox
-  - Uso de object-fit para controle da imagem
+  - Uso de `object-fit` para controle da imagem
   - Card com sombra e bordas arredondadas
   - Botão com efeito hover
 
@@ -48,14 +48,14 @@ O objetivo foi desenvolver um card de produto aplicando boas práticas de semân
 
 Neste projeto, pude reforçar conceitos importantes como:
 
-- Importância da semântica no HTML
+- Importância da **semântica no HTML**
 - Organização e leitura de código
 - Controle de imagens dentro de layouts
 - Uso prático de Flexbox
 - Fluxo básico de versionamento com Git:
-  - git add
-  - git commit
-  - git push
+  - `git add`
+  - `git commit`
+  - `git push`
 
 ---
 
@@ -70,8 +70,15 @@ Neste projeto, pude reforçar conceitos importantes como:
 
 ## 📂 Estrutura do Projeto
 
+```text
 01-card-produto/
 ├── index.html
 ├── style.css
 └── img/
-└── tenis.png
+    └── tenis.png
+
+
+## ✍️ Autor
+
+Projeto desenvolvido por **Everton Carlos**, como parte do aprendizado em desenvolvimento front-end.
+```
