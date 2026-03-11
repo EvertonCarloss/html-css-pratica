@@ -48,5 +48,8 @@ Durante este projeto foram praticados conceitos importantes de desenvolvimento f
 
 ## Autor
 
-**Dev Everton**
 Projeto desenvolvido para prática de **HTML e CSS**.
+
+---
+
+**Dev Everton**
