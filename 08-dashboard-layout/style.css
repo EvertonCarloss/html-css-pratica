@@ -1,0 +1,86 @@
+/* Resete */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* Layout principal */
+.dashboard {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #1e293b;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 12px;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/* Conteúdo */
+.content {
+  padding: 30px;
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+}
+
+/* Grid de cards */
+.cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
