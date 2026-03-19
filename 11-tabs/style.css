@@ -1,0 +1,50 @@
+/* Resete */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+}
+
+/* Container */
+.tabs {
+  width: 400px;
+}
+
+/* Botões */
+.tab-buttons {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  background: #1e293b;
+  border: none;
+  color: white;
+}
+
+.tab.active {
+  background: #3b82f6;
+}
+
+/* Conteúdo */
+.content {
+  display: none;
+  padding: 20px;
+  background: #1e293b;
+}
+
+.content.active {
+  display: block;
+}
