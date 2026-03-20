@@ -1,0 +1,30 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+}
+
+.dark {
+  --bg: #0f172a;
+  --text: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
