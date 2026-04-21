@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Dashboard</h1>
+
+    <div class="grid">
+
+      <div class="card">
+        <h2>Usuário GitHub</h2>
+        <input type="text" id="username" placeholder="Digite usuário">
+        <button onclick="getUser()">Buscar</button>
+        <div id="userResult"></div>
+      </div>
+
+      <div class="card">
+        <h2>Clima</h2>
+        <input type="text" id="city" placeholder="Digite cidade">
+        <button onclick="getWeather()">Buscar</button>
+        <div id="weatherResult"></div>
+      </div>
+
+      <div class="card">
+        <h2>Hora Atual</h2>
+        <div id="time"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
